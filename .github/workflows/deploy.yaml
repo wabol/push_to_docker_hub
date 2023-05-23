@@ -50,6 +50,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ github.sha }}
-          labels: ${{ github.sha }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.tags }}
           # ${{ steps.meta.outputs.tags }}
