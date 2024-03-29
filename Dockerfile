@@ -1,5 +1,5 @@
 # Dockerfile
-FROM python:3.9.19-alpine3.19
+FROM python:3.12.2-alpine3.19
 
 WORKDIR /app
 
