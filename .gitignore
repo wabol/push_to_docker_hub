@@ -1,1 +1,3 @@
 __pycache__
+.push_to_docker
+.test
